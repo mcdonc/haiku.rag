@@ -1,6 +1,7 @@
 from evaluations.config import DatasetSpec
 
 from .hotpotqa import HOTPOTQA_SPEC
+from .mmlongbench import MMLONGBENCH_SPEC
 from .open_rag_bench import ORB_MULTIMODAL_SPEC, ORB_TEXT_SPEC
 from .repliqa import REPLIQA_SPEC
 from .wix import WIX_SPEC
@@ -13,6 +14,7 @@ DATASETS: dict[str, DatasetSpec] = {
         HOTPOTQA_SPEC,
         ORB_TEXT_SPEC,
         ORB_MULTIMODAL_SPEC,
+        MMLONGBENCH_SPEC,
     )
 }
 
